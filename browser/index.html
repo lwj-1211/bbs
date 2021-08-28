@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta name="description" content='#'>
+  <meta name="keywords" content='#'>
+  <meta name="author" content='#'>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
+  <base href="#" target="_blank">
+  <title>论坛网站</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style: none;
+      display: inline-block;
+    }
+
+    .nav {
+      height: 50px;
+      background-color: #313131;
+    }
+    .nav-left { margin-left: 10%;}
+    .nav-left .icon {
+      display: inline-block;
+      margin-top: 5px;
+
+    }
+
+    .nav-left ul li {
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      padding: 0 10px;
+    }
+
+    .nav-left a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .home-page { background: url(img/img1.png) no-repeat;}
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <!-- 导航栏左侧 -->
+    <div class="nav-left">
+      <a class="icon" href="#"><img src="img/icon.png" width="40" height="40"></a>
+      <ul>
+        <li><a class="home-page" href="#">首页</a></li>
+        <li><a class="special" href="#">专题</a></li>
+        <li><a class="knowledge" href="#">知识</a></li>
+        <li><a class="que-ans" href="#">问答</a></li>
+        <li><a class="contact" href="#">联系我们</a></li>
+        <li>
+          <ul>
+            <li>
+              <a href="#">商业版介绍</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 导航栏右侧 -->
+    <div class="nav-right"></div>
+  </div>
+</body>
+
+</html>
